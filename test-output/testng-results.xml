@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-27T15:55:20 IST" name="Suite" finished-at="2024-08-27T15:56:00 IST" duration-ms="40046">
+    <groups>
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.lang.String,java.lang.String)[pri:0, instance:testautomation.tests.SubmitOrderTest@557caf28]" name="submitOrder" class="testautomation.tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-08-27T15:55:20 IST" name="Submit Order Test" finished-at="2024-08-27T15:56:00 IST" duration-ms="40046">
+      <class name="testautomation.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testautomation.tests.SubmitOrderTest@557caf28]" started-at="2024-08-27T15:55:20 IST" name="launchApplication" finished-at="2024-08-27T15:55:27 IST" duration-ms="7087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String)[pri:0, instance:testautomation.tests.SubmitOrderTest@557caf28]" started-at="2024-08-27T15:55:27 IST" name="submitOrder" data-provider="getData" finished-at="2024-08-27T15:55:41 IST" duration-ms="13478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lindababy@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linda92@TEST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testautomation.tests.SubmitOrderTest@557caf28]" started-at="2024-08-27T15:55:41 IST" name="tearDown" finished-at="2024-08-27T15:55:41 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:testautomation.tests.SubmitOrderTest@557caf28]" started-at="2024-08-27T15:55:41 IST" name="launchApplication" finished-at="2024-08-27T15:55:44 IST" duration-ms="3564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String)[pri:0, instance:testautomation.tests.SubmitOrderTest@557caf28]" started-at="2024-08-27T15:55:44 IST" name="submitOrder" data-provider="getData" finished-at="2024-08-27T15:56:00 IST" duration-ms="15385" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lindababy@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[linda92@TEST]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testautomation.tests.SubmitOrderTest@557caf28]" started-at="2024-08-27T15:56:00 IST" name="tearDown" finished-at="2024-08-27T15:56:00 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testautomation.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
